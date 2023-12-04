@@ -1,0 +1,230 @@
+@charset "UTF-8";
+Html{
+    box-sizing: border-box;
+}
+Body{
+    font-size: 16px;
+    background-color: #f8b451;
+    overflow-x: hidden;
+    background-image: url("../images/backbugs1.png");
+    background-repeat: repeat;
+    color:#18214c;
+    font-family: 'Hedvig Letters Sans', sans-serif;
+
+}
+
+
+
+
+/*logo*/
+.logo{
+    width: 100px;
+    height: 100px;
+    background: url("../images/logo1.png") no-repeat;
+    margin-left: 90px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+.logo :hover{
+    background: url("../images/logo2.png") no-repeat;
+}
+
+header p{
+    font-family: 'amatic SC', sans-serif;
+    font-size: 30px;
+    width:80px;
+    margin-left:10px;
+    color:#18214c;
+    
+}
+
+
+
+
+/* top navigation Rules*/
+.topnav {
+    background-color: #f8b451;
+    overflow: hidden;
+    justify-content: center;
+    font-family: 'Amatic SC', sans-serif;
+    font-size: larger;
+    text-align: center;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.topnav a {
+    color: #18214c;
+    text-decoration: none;
+    font-size: 30px;
+    text-align: center;
+    padding: 50px;
+}
+.topnav a:hover {
+    background-color: #e24740;
+    color:#ffe683;
+}
+.topnav a.active {
+    background-color: #e24740;
+    color: #ffe683;
+}
+
+
+
+
+/*title/ingredients*/
+.sweettopbox{
+    background-color: #2359A8;
+    padding-top: 5px;
+    padding-bottom: 30px;
+}
+#title{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color:#FFE683;
+    padding-top: 50px;
+    font-family: 'amatic SC', sans-serif;
+    font-size: 35px;
+}
+#title h1{
+    margin-left: 120px;
+    margin-right: 120px;
+}
+#title a:hover{animation: shake 0.5s infinite;}
+@keyframes shake {
+         0% {transform: rotate(0deg);}
+         20% {transform: rotate(-4deg);}
+         50% {transform: rotate(0deg);}
+         70% {transform: rotate(4deg);}
+         100% {transform: rotate(0deg);}
+}
+.flex{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+#ingredients{
+    color: #ffe683;
+    padding: 30px;
+    width:230px;
+    font-family: 'Hedvig Letters Sans', sans-serif;
+    list-style: none;
+}
+#ingredients li{
+    margin-bottom: 20px;
+}
+
+.savorytopbox{
+    background-color: #e24740;
+    padding-top: 5px;
+    padding-bottom: 30px;
+}
+
+
+
+
+/*Directions*/
+#topsteps{
+    margin-bottom: 50px;
+    font-weight: bold;
+    font-size: 18px;
+}
+#topsteps li{
+    list-style: none;
+}
+#topsteps li{
+    margin-bottom: 20px;
+}
+.flex2{
+    display: flex;
+    flex-direction: row;
+    margin: 50px;
+    justify-content: center;
+    font-family: 'Hedvig Letters Sans', sans-serif;
+}
+#atlas{
+    display: flex;
+    flex-direction: column;
+    margin-right:50px;
+    margin-top: 50px;
+}
+#atlas img{
+    margin-bottom:90px;
+    
+}
+
+
+
+/*sweet directions*/
+#sweetsteps h2{
+    color: #2359A8;
+}
+#sweetsteps{
+    width:500px;
+    margin-left: 50px;
+}
+#swesteps{
+    display: flex;
+    flex-direction: row;
+}
+#swesteps p{
+    margin-bottom: 20px;
+}
+#swesteps h3{
+    margin-top: 12px;
+    margin-right: 20px;
+    color: #2359A8;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+
+
+/*savory directions*/
+#savorysteps h2{
+    color: #e24740;
+}
+#savorysteps{
+    width:500px;
+    margin-left: 50px;
+}
+#savsteps p{
+    margin-bottom: 20px;
+}
+#savsteps{
+    display: flex;
+    flex-direction: row;
+    
+}
+#savsteps h3{
+    margin-top: 12px;
+    margin-right: 20px;
+    color: #e24740;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+
+
+
+/*footer*/
+footer p{
+    font-family: 'amatic SC', sans-serif;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.footertext{
+    background-color: #e24740;
+    color: #ffe683;
+    padding: 10px;
+}
+footer img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#wave{
+    margin-bottom: -4px;
+    margin-top: 50px;
+}
